@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f4b95f</color>
+    <color name="blue">#83aed1</color>
+    <color name="grey_light">#797979</color>
+
+
+    <color name="black">#111111</color>
+    <color name="red">#FF4C4C</color>
+    <color name="green">#12A924</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbar_color">#303030</color>
+    <color name="inactive">#808080</color>
+    <color name="active">#DCDCDC</color>
+    <color name="brown">#d1a683</color>
+    <color name="red_shade_1">#FF4C4C</color>
+    <color name="brown1">#b4a796</color>
+    <color name="blue1">#3b4483</color>
+    <color name="blue2">#62acb5</color>
+    <color name="gold">#daa45c</color>
+    <color name="sandy_brown">#f4b95f</color>
+    <color name="red_hear">#D75A4A</color>
+    <color name="forest_green">#228B22</color>
+    <color name="darker_green">#008000	</color>
+    <color name="online_green">#42b72a</color>
+
+
+    <!--    COMPLEMENTRY COLOR WITH GREY COLOR         -->
+
+    <color name="beige">#b4a796</color>
+    <color name="navy">#3b4483</color>
+    <color name="electric_blue">#62acb5</color>
+    <color name="goldy">#daa45c</color>
+    <color name="dark_green">#6d8203</color>
+    <color name="lime">#b2b365 </color>
+    <color name="orange_soda">#fc7233</color>
+    <color name="blush">#fc7233</color>
+    <color name="cherry_red">#e4324c</color>
+    <color name="yellow">#f4b95f</color>
+    <color name="grey1">#5A595B</color>
+    <color name="grey_active">#DCDCDC</color>
+    <color name="default_theme_color">#696969</color>
+    <color name="button_pressed">#7b7a7b</color>
+    <color name="orange_darker">#D66A00</color>
+    <color name="background_light_blue_color">#4a77bd</color>
+    <color name="hint_color1">#e1e1e1</color>
+
+    <color name="bnb_dark_blue_color">#004c8c</color>
+    <color name="bnb_so_dark_blue_color">#00255e</color>
+    <!--<color name="bnb_less_darker_blue_color">#58a5f0</color>-->
+
+    <!--
+    <color name="bnb_less_darker_blue_color">#58a5f0</color>
+-->
+    <color name="background_grey">#e1e1e1</color>
+    <color name="background_white">#e1e1e1</color>
+    <color name="hint_color">#0277bd</color>
+    <color name="very_dark_blue_color">#004ba0</color>
+    <color name="dark_gold">#be8930</color>
+    <color name="gold_trophy">#F1543F</color>
+    <color name="silver_trophy">#ADADA1</color>
+    <color name="bronze_color">#F7A04B</color>
+    <color name="light_brown">#decabc</color>
+    <color name="dark_blue_navy">#003366</color>
+    <color name="facebook_color">#475993</color>
+    <color name="souq_price_color">#006FCC</color>
+</resources>

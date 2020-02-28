@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:paddingBottom="5dp"
+    android:visibility="visible">
+
+
+
+    <ImageView
+        android:id="@+id/message_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="4dp"
+        android:gravity="end"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:id="@+id/ID_message_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_image"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:textSize="12sp"
+        tools:text="21:00 PM" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ID_item_message_seen"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"
+        app:srcCompat="@drawable/ic_unseen"
+        android:layout_toStartOf="@id/ID_message_timestamp"
+        android:layout_below="@id/message_image"/>
+
+</RelativeLayout>

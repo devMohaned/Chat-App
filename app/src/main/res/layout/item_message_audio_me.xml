@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:paddingBottom="5dp"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:id="@+id/ID_audio_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:background="@drawable/right_messaging_shape">
+
+
+        <ImageButton
+            android:id="@+id/ID_audio_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:srcCompat="@drawable/ic_media_play" />
+
+        <TextView
+            android:id="@+id/ID_audio_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ID_audio_seekbar"
+            android:layout_toEndOf="@id/ID_audio_play"
+            tools:text="0 sec" />
+
+        <SeekBar
+            android:id="@+id/ID_audio_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_toEndOf="@id/ID_audio_play" />
+
+        <TextView
+            android:id="@+id/ID_audio_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ID_audio_seekbar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            tools:text="66 sec"
+            android:text="@string/loading"/>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/ID_message_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ID_audio_layout"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        tools:text="21:00 PM" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ID_item_message_seen"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/ID_audio_layout"
+        android:layout_toStartOf="@id/ID_message_timestamp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:srcCompat="@drawable/ic_unseen" />
+
+</RelativeLayout>

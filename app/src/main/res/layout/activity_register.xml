@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ID_register_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            app:title="@string/create_account"
+            android:background="@color/bnb_dark_blue_color">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:accessibilityLiveRegion="polite"
+                android:contentDescription="@string/username"
+                android:labelFor="@+id/ID_reg_first_name"
+                android:nextFocusForward="@+id/ID_reg_last_name"
+                android:nextFocusRight="@+id/ID_reg_last_name"
+                android:nextFocusDown="@+id/ID_reg_last_nam"
+                app:counterEnabled="true"
+                app:counterMaxLength="32"
+                app:counterTextAppearance="@style/HintText"
+                app:hintTextAppearance="@style/HintText">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    app:backgroundTint="@color/bnb_dark_blue_color"
+                    android:id="@+id/ID_reg_first_name"
+                    style="@style/registerationBtn"
+                    android:hint="@string/firstName"
+                    android:inputType="textCapSentences"
+                    android:imeOptions="actionNext"
+                    android:nextFocusForward="@+id/ID_reg_last_nam"
+                    android:nextFocusRight="@+id/ID_reg_last_name"
+                    android:nextFocusDown="@+id/ID_reg_last_nam"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:accessibilityLiveRegion="polite"
+                android:contentDescription="@string/username"
+                android:labelFor="@+id/ID_reg_last_name"
+                app:counterEnabled="true"
+                app:counterMaxLength="32"
+                app:hintTextAppearance="@style/HintText"
+                app:counterTextAppearance="@style/HintText"
+                android:nextFocusForward="@id/ID_reg_password"
+                >
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    app:backgroundTint="@color/bnb_dark_blue_color"
+                    android:id="@+id/ID_reg_last_name"
+                    style="@style/registerationBtn"
+                    android:hint="@string/lastName"
+                    android:inputType="textCapSentences"
+                    android:nextFocusForward="@id/ID_reg_password"
+
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/registerTextField"
+            android:accessibilityLiveRegion="polite"
+            android:contentDescription="@string/password"
+            android:labelFor="@+id/ID_reg_password"
+            app:passwordToggleEnabled="true"
+            app:hintTextAppearance="@style/HintText">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                app:backgroundTint="@color/bnb_dark_blue_color"
+                android:id="@+id/ID_reg_password"
+                style="@style/registerationBtn"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+              />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/registerTextField"
+            android:accessibilityLiveRegion="polite"
+            android:contentDescription="@string/email"
+            android:labelFor="@+id/ID_reg_email"
+            app:hintTextAppearance="@style/HintText">
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                app:backgroundTint="@color/bnb_dark_blue_color"
+                android:id="@+id/ID_reg_email"
+                style="@style/registerationBtn"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionDone"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/ID_reg_register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:minHeight="48dp"
+            android:text="@string/register"
+            android:background="@drawable/cornered_button"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/ID_reg_progress_bar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:id="@+id/ID_setting_up_your_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

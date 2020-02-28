@@ -1,0 +1,72 @@
+<resources>
+
+    <!--        <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>
+-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/very_dark_blue_color</item>
+        <item name="cardViewStyle">@style/CardView</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <!--<item name="windowContentTransitions">true</item>-->
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlHighlight">@color/black</item>
+    </style>
+
+
+    <style name="LoginButton">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/box</item>
+        <item name="android:textColorHint">@color/grey_active</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:minHeight">48dp</item>
+
+    </style>
+
+
+    <style name="registerationBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+
+    <style name="HintText" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="registerTextField">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?android:attr/actionBarSize</item>
+        <item name="android:background">@color/bnb_dark_blue_color</item>
+
+    </style>
+
+
+</resources>
